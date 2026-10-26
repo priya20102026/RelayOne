@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "RelayOne",
+    "slug": "careknot",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#F7F8FA"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.careknot.app",
+      "infoPlist": {
+        "NSCalendarsUsageDescription": "RelayOne adds appointments you claim to your calendar so you never miss them."
+      }
+    },
+    "android": {
+      "package": "com.careknot.app",
+      "permissions": [
+        "READ_CALENDAR",
+        "WRITE_CALENDAR"
+      ]
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-status-bar"
+    ]
+  }
+}
