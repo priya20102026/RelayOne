@@ -232,13 +232,3 @@ No AI/LLM integration anywhere. The load score, calendar sync, quotes,
 task board (including the done-task crossout and 24-hour expiry), group
 chat, and journal are all deterministic logic or plain user input.
 
-## Rename note (CareKnot → RelayOne)
-
-The in-app name, Welcome screen, and the icon title shown on your phone's
-home screen were all changed to **RelayOne**. The project folder, GitHub
-repo, Vercel project, and Expo/EAS project (`slug`/`bundleIdentifier` in
-`app.json`) were intentionally left as `careknot` so your existing
-deploy links, GitHub repo, and EAS build credentials keep working without
-having to redo any of that setup. If you want the folder/repo/slug
-renamed too later, that's a separate, bigger step (new EAS project, new
-bundle ID) — just ask.
